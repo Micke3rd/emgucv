@@ -5,11 +5,6 @@
     
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Emgu.CV.Contrib\Emgu.CV.Contrib.csproj" />
-    <ProjectReference Include="..\Emgu.CV\Emgu.CV.csproj" />
     <ProjectReference Include="..\Emgu.Util\Emgu.Util.csproj" />
   </ItemGroup>
 

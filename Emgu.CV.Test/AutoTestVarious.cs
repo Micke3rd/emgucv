@@ -41,18 +41,18 @@ using Emgu.CV.XImgproc;
 //using Emgu.CV.Softcascade;
 using Emgu.Util;
 using DetectorParameters = Emgu.CV.Aruco.DetectorParameters;
-#if VS_TEST
+//#if VS_TEST
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestAttribute = Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute;
 using TestFixture = Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute;
-#elif NETFX_CORE
-using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
-using TestAttribute = Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestMethodAttribute;
-using TestFixture = Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestClassAttribute;
-#else
-using Emgu.CV.ML;
-using NUnit.Framework;
-#endif
+//#elif NETFX_CORE
+//using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
+//using TestAttribute = Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestMethodAttribute;
+//using TestFixture = Microsoft.VisualStudio.TestPlatform.UnitTestFramework.TestClassAttribute;
+//#else
+//using Emgu.CV.ML;
+//using NUnit.Framework;
+//#endif
 
 
 namespace Emgu.CV.Test

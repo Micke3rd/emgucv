@@ -1,14 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    
-    <OutputType>Library</OutputType>
+    <IsPackable>false</IsPackable>
     
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Properties\" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.0-preview-20201020-06" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Emgu.CV.Contrib\Emgu.CV.Contrib.csproj" />
+    <ProjectReference Include="..\Emgu.CV.Cuda\Emgu.CV.Cuda.csproj" />
     <ProjectReference Include="..\Emgu.CV\Emgu.CV.csproj" />
     <ProjectReference Include="..\Emgu.Util\Emgu.Util.csproj" />
   </ItemGroup>
